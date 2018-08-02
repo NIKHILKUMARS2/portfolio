@@ -1,0 +1,122 @@
+:root {
+  font-size: 16px; }
+
+  body {
+  margin: 0;
+  padding: 0;
+  background-image: url("background.jpg"); 
+}
+
+/*  .container {
+   
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  color:black; 
+  }*/
+
+  .section{
+  	display: block;
+  	width: 100vw;
+  	height:15vh;
+  }
+  .section1{
+  	display: block;
+  	width: 100vw;
+    background-color: black;
+  
+  }
+  .section8{
+  	  	display: block;
+  	width: 100vw;
+  	background-color: black;
+  	text-align: center;
+  }
+
+  .section2 .paragraph1{
+  	text-align: center;
+  	font-size: 1.5rem;
+  	font-family: "Istok Web", sans-serif;
+  }
+  .section5 .paragraph5{
+  	font-size: 1rem;
+  	font-family: "Istok Web", sans-serif;
+  }
+
+/* .section3{
+ 	display: block;
+  	width: 100vw;
+ }
+
+ .section4{
+ 	display: block;
+  	width: 100vw;
+ }*/
+
+  table {
+    margin: 0 auto;
+   }
+  .topnav{
+  	text-align: center;
+  }
+
+  .sub-container{
+  	 display: block;
+  	background-image: url("back.jpg");
+  	flex-direction: column;
+    width: 100vw;
+  }
+
+
+
+
+  .my-image{
+      border: 1px solid #35eea4;
+      border-radius: 5px;
+      box-shadow: 0px 3px 20px 2px #2c2c2c;
+      width: 25vw;
+      height:25vh;
+}
+
+
+.card {
+    flex: 1;
+    width: 20%;       
+    height:30vh;
+    margin:auto;  
+
+}
+
+
+
+.card .container {
+    padding: 0.125rem 1rem;
+    text-align: center;
+    font-size: 1rem;    
+
+}
+
+
+
+@media only screen and (max-width: 430px) {
+    body {
+        background-color: lightblue;
+    }
+            .card  {
+        	
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    body {
+        background-color: lightblue;
+    }
+            .card  {
+        	
+        width: 50vw;
+    }
+}
+
+
+
